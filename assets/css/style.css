@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* variable CSS */
+
+:root{
+    --rubik-font: "Rubik";
+    --rajdhani-font: "Rajdhani";
+    --section-color: #F3F3F3;
+    --primary-color: #DF2339;
+    --white: #fff;
+    ---black: #000
+}
+
+/* Common CSS start */
+a{
+    font-family: var(--rajdhani-font);
+}
+/* Common CSS end */
+
+/* Navbar CSS start */
+nav{
+    background-color: var(--section-color) !important;
+}
+
+.nav-menu{
+    margin-left: 92px;
+}
+
+.nav-social-icon{
+    margin-right: 71px;
+}
+
+.nav-social-icon > i{
+    margin-right: 25px;
+    font-size: 15px;
+}
+
+.nav-action-btn > i{
+    color: var(--primary-color);
+    font-size: 16px;
+    padding: 15px;
+    background-color: silver;
+    border-radius: 50%;
+
+}
+
+.nav-action-btn > div{
+    margin-left: 10px;
+}
+
+.nav-action-btn > div > p:first-child{
+    margin: 0;
+    font-size: 16px;
+    font-family: var(--rubik-font);
+}
+
+.nav-action-btn > div > p:last-child{
+    margin: 0;
+    font-size: 16px;
+    font-family: var(--rajdhani-font);
+    font-weight: bold;
+}
+/* Navbar CSS end */
